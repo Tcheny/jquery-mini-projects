@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $('img').click(function(){
-    $('ul').toggle(500);
-
+    $('.dropdown-menu').toggle(500);
   });
 });
